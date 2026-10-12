@@ -1,0 +1,371 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- HERO SECTION -->
+    <header class="hero" id="home">
+
+        <nav class="navbar">
+            <a href="#home" class="logo">NETFLIX</a>
+
+            <div class="nav-right">
+                <select aria-label="Language">
+                    <option>English</option>
+                    <option>Hindi</option>
+                </select>
+
+                <a href="#movies" class="sign-in">Sign In</a>
+            </div>
+        </nav>
+
+        <div class="hero-content">
+            <h1>Unlimited movies, TV shows and more</h1>
+
+            <h2>Enjoy big movies, hit series and more from ₹149.</h2>
+
+            <p>Join today. Cancel anytime.</p>
+
+            <p class="email-text">
+                Ready to watch? Enter your email to create or restart your membership.
+            </p>
+
+            <form class="email-form" action="#movies">
+                <input
+                    type="email"
+                    placeholder="Email Address"
+                    aria-label="Email Address"
+                    required
+                >
+
+                <button type="submit">Get Started ❯</button>
+            </form>
+        </div>
+
+    </header>
+
+    <div class="separator"></div>
+
+    <!-- ENJOY ON YOUR TV -->
+    <section class="feature">
+
+        <div class="feature-text">
+            <h2>Enjoy on your TV</h2>
+
+            <p>
+                Watch on smart TVs, PlayStation, Xbox, Chromecast,
+                Apple TV, Blu-ray players and more.
+            </p>
+        </div>
+
+        <div class="feature-image">
+            <div class="screen">
+                <img
+                    src="https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=900&q=80"
+                    alt="Watching movies on a big screen"
+                >
+
+                <span>▶ Now Playing</span>
+            </div>
+        </div>
+
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- DOWNLOAD YOUR SHOWS -->
+    <section class="feature reverse">
+
+        <div class="feature-image">
+            <div class="download-card">
+
+                <img
+                    src="https://img.youtube.com/vi/Kd4e9olBVYw/hqdefault.jpg"
+                    alt="Vivah movie trailer"
+                >
+
+                <div>
+                    <strong>Vivah</strong>
+                    <p>Ready to watch</p>
+                </div>
+
+                <span class="download-icon">✓</span>
+
+            </div>
+        </div>
+
+        <div class="feature-text">
+            <h2>Download your shows to watch offline</h2>
+
+            <p>
+                Save your favourites easily and always
+                have something to watch.
+            </p>
+        </div>
+
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- WATCH EVERYWHERE -->
+    <section class="feature">
+
+        <div class="feature-text">
+            <h2>Watch everywhere</h2>
+
+            <p>
+                Stream unlimited movies and TV shows on your phone,
+                tablet, laptop, and TV.
+            </p>
+        </div>
+
+        <div class="feature-image">
+            <div class="device-screen">
+                <img
+                    src="https://images.unsplash.com/photo-1524985069026-dd778a71c7b4?auto=format&fit=crop&w=900&q=80"
+                    alt="Movie theatre"
+                >
+            </div>
+        </div>
+
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- KIDS PROFILES -->
+    <section class="feature reverse">
+
+        <div class="feature-image">
+            <div class="kids-card">
+                <span class="kids-emoji">🎬</span>
+
+                <div>
+                    <h3>Kids Profiles</h3>
+                    <p>Fun for little viewers</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="feature-text">
+            <h2>Create profiles for kids</h2>
+
+            <p>
+                Send children on adventures with their favourite
+                characters in a space made just for them.
+            </p>
+        </div>
+
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- MOVIE GALLERY -->
+    <section class="movies-section" id="movies">
+
+        <h2>Popular on Netflix</h2>
+
+        <p class="movies-intro">
+            Explore movies and click on a poster to watch a trailer.
+        </p>
+
+        <div class="movie-grid">
+
+            <!-- VIVAH MOVIE -->
+            <a href="movie.html" class="movie-card">
+
+                <img
+                    src="https://img.youtube.com/vi/Kd4e9olBVYw/hqdefault.jpg"
+                    alt="Vivah movie trailer"
+                >
+
+                <div class="movie-info">
+                    <span class="play-icon">▶</span>
+
+                    <h3>Vivah</h3>
+
+                    <p>2006 · Romance · Hindi</p>
+
+                    <span class="watch-label">Watch Trailer</span>
+                </div>
+
+            </a>
+
+            <!-- MOVIE CARD 2 -->
+            <a
+                href="https://www.youtube.com/results?search_query=official+romantic+movie+trailers"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="movie-card"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=600&q=80"
+                    alt="Cinema movie screen"
+                >
+
+                <div class="movie-info">
+                    <span class="play-icon">▶</span>
+
+                    <h3>Movie Night</h3>
+
+                    <p>Movies · Entertainment</p>
+
+                    <span class="watch-label">Explore Movies</span>
+                </div>
+
+            </a>
+
+            <!-- MOVIE CARD 3 -->
+            <a
+                href="https://www.youtube.com/results?search_query=official+family+movie+trailers"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="movie-card"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1440404653325-ab127d49abc1?auto=format&fit=crop&w=600&q=80"
+                    alt="Film projector"
+                >
+
+                <div class="movie-info">
+                    <span class="play-icon">▶</span>
+
+                    <h3>Family Movies</h3>
+
+                    <p>Family · Drama</p>
+
+                    <span class="watch-label">Explore Movies</span>
+                </div>
+
+            </a>
+
+            <!-- MOVIE CARD 4 -->
+            <a
+                href="https://www.youtube.com/results?search_query=official+adventure+movie+trailers"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="movie-card"
+            >
+
+                <img
+                    src="https://images.unsplash.com/photo-1478720568477-152d9b164e26?auto=format&fit=crop&w=600&q=80"
+                    alt="Cinema projector"
+                >
+
+                <div class="movie-info">
+                    <span class="play-icon">▶</span>
+
+                    <h3>Adventure</h3>
+
+                    <p>Adventure · Action</p>
+
+                    <span class="watch-label">Explore Movies</span>
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- FREQUENTLY ASKED QUESTIONS -->
+    <section class="faq">
+
+        <h2>Frequently Asked Questions</h2>
+
+        <details>
+            <summary>What is Netflix?</summary>
+
+            <p>
+                Netflix is a streaming service offering movies,
+                TV shows, documentaries and more.
+            </p>
+        </details>
+
+        <details>
+            <summary>How much does Netflix cost?</summary>
+
+            <p>
+                Subscription prices depend on the plan and region.
+                Visit the official Netflix website for current prices.
+            </p>
+        </details>
+
+        <details>
+            <summary>What can I watch on Netflix?</summary>
+
+            <p>
+                You can watch movies, series, documentaries
+                and other entertainment.
+            </p>
+        </details>
+
+        <details>
+            <summary>Where can I watch?</summary>
+
+            <p>
+                Watch on compatible phones, tablets, computers
+                and smart TVs.
+            </p>
+        </details>
+
+        <details>
+            <summary>Is this the official Netflix website?</summary>
+
+            <p>
+                No. This is a student-made Netflix-inspired
+                project created for educational purposes.
+            </p>
+        </details>
+
+    </section>
+
+    <div class="separator"></div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <p>
+            Questions? Visit the
+            <a href="https://help.netflix.com/">
+                Netflix Help Center
+            </a>.
+        </p>
+
+        <div class="footer-links">
+            <a href="https://help.netflix.com/">FAQ</a>
+
+            <a href="https://help.netflix.com/">Help Centre</a>
+
+            <a href="https://www.netflix.com/">Netflix</a>
+
+            <a href="#home">Back to top</a>
+
+            <a href="#movies">Movies</a>
+
+            <a href="#home">Home</a>
+
+            <a href="https://help.netflix.com/">Contact</a>
+
+            <a href="https://www.netflix.com/">About</a>
+        </div>
+
+        <p class="copyright">
+            Netflix Clone | Created with HTML and CSS
+            for a college project.
+        </p>
+
+    </footer>
+
+</body>
+</html>
